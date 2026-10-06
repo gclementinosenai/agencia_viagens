@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Contate!</title>
+    <link rel="stylesheet" href="folha_estilo.css">
+</head>
+<body class="corpo4">
+    <header class="cabecalho">
+        <div class="logo">
+            <i class="fa-solid fa-earth-americas"></i>
+            <span>Explore o Mundo!!</span>
+         </div>
+         <div class="navegacao">
+            <nav class="menu-links">
+                <a href="index.html">Início</a>
+                <a href="destinos.html">Destinos</a>
+                <a href="sobre_nos.html">Sobre Nós</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+            <div class="redes-sociais">
+                <a href="" class="whats"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="x"><i class="fa-brands fa-x-twitter"></i></a>
+
+            </div>
+         </div>
+    </header>
+
+    <main class="container">
+        <h1 class="titulo-secao">Cadastro para explorar mais</h1>
+        <p class="subtitulo2">Preencha seus dados para realizar seu login no Gusta Turismos</p>
+
+        <div class="area_inscricao">
+            <form action="/processar cadastro" method="post" class="coluna_form">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required minlength="3" maxlength="50"><br>
+
+                <label for="senha">Senha de Acesso:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite uma senha" required minlength="8" maxlength="15"><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seu email (exemplo@gmail.com)"><br>
+
+                <label for="data_nascimento">Data de nascimento:</label>
+                <input type="date" id="data_nascimento" name="data_nascimento" min="1900-01-01" max="2026-12-31"><br><br>
+
+                </select><br>
+                <input type="checkbox" id="termos" name="ternos" required>
+                <label for="termos">Li e aceito os termos</label><br>
+
+                <button type="submit" class="btn-enviar">Enviar</button>
+                <button type="reset" class="btn-limpar">Limpar</button>
+            </form>
+        </div>
+    </main>
+    <footer class="rodape1">
+        <p>© 2026 Gusta Turismo - Todos os direitos reservados</p>
+        <p>Entre em contato (17) 98765 2345</p>
+        <p>Rua dos Bancários 234 - São Paulo</p>
+    </footer>
+
+</body>
+</html>
